@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon , MediumIcon} from "@/components/icons"
 export const RESUME_DATA = {
   name: "Akshat Rai Laddha",
   initials: "ARL",
-  location: "Warangal,Telangana",
-  locationLink: "[Location line paster here]",
+  location: "NIT Warangal,Telangana",
+  locationLink: "[https://maps.app.goo.gl/ncWjwzuZ5ocXecGEA]",
   about:
-    "Student at NIT Warangal, Data Science Enthusiast.Figuring out and Buidling life one step at a time",
+    "Student at NIT Warangal, Data Science Enthusiast.Figuring out,taking one step at a time",
   summary:
-    "Hey!!. A Quick intro. Myself Akshat , student at NIT Warangal, Batch of 2024 ,pursuing undergrad in Electrical Engineering with passion to build my career in Analytics domain. Having work experience in corporate giants like Craelon Global Solutions and startups like Zevo.ai.Apart from this, preety active in extra-curriculars, Being the captain of Institute Badminton Team or writing medium blogs.",
+    "Hey!!. A Quick intro. Myself Akshat , student at NIT Warangal, Batch of 2024 ,pursuing undergrad in Electrical Engineering with keen interest to build carrer in Analytics domain.Having work experience in corporate giants like Carelon Global Solutions and startups like Zevo.ai.Apart from this,love to read and write blogs, playing badminton and take up club/assosiations responsibilities.",
   avatarUrl: "https://github.com/akshatladdha16/Portfolio/raw/master/profile%20pic1.jfif",
   personalWebsiteUrl: "[insertwebsite link here]",
   contact: {
@@ -75,18 +75,18 @@ export const RESUME_DATA = {
       start: "Aug,23",
       end: "Dec,23",
       description:
-        "[insert description here]",
+        "Researched thoroughly for possible LLMs (codeLlama, codeBERT, etc.) solutions for the company’s use case. Understood data pipeline formation in Vertex AI, and performed fine-tuning practices with the codeBERT model. Worked in cross-functional team and assisted in development practices with Dev Team day-to-day tasks.Tools Used: Vertex AI|Atlassian JIRA Software|Visual Studio|Git version control.",
     },
     {
       company: "Carelon Global Solutions LLP",
       link: "https://www.carelon.com/",
       badges: ["On-site(Bangalore)"],
-      title: "ML Intern",
+      title: "ML Developer Intern",
       logo: ClevertechLogo,
       start: "May,23",
       end: "July,23",
       description:
-        "[insert description here]",
+        " Developed analytics tool to assist developers, testers, and BA to arrest and identify defect-prone areas.Implemented Transfer Learning to find contextualized keywords, and categorized 85-90% of defects.Extracted live defect data from DB using SQL Server, built pipeline and published PowerBI dashboard using API.Enhanced defect management efficiency, reduced the number of defects by 5%, with a 10% increment every year.Tools Used: Spyder | SQL Server Management | JIRA | MS Excel | PowerBI API | Azure",
     },
     {
       company: "Wizlearnr International",
@@ -97,188 +97,68 @@ export const RESUME_DATA = {
       start: "2012",
       end: "2015",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Developed a prototype using no-code tool for an Ed-Tech startup focusing on the holistic life skills of children.Researched Tech feasibility and analyzed market trends and size for the Ed-tech domain using Excel.Reached out to potential customers to understand business needs and frame solutions for better services.Tools Used: Bubble.io | Google Analytics | Canva | MS Excel | PowerPoint Presentation",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Deep learning",
+    "Tensorflow",
+    "Pytorch",
+    "LLMs",
+    "Computer Vision",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Relational NER",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "NLP",
+        "Python",
+        "LLMs",
+        "Spacy Transformers",
+        "Streamlit",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Extracting named entites and establishing relationship btw those entities in text corpus",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "https://github.com/akshatladdha16/Extraction-of-Relational-Information-from-Text-Using-Transformer-based-NLP-Techniques",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Spam Classifier",
+      techStack: ["Python", "NLP", "Machine Learning", "TFiDF Transformer"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Implemented classification algorithms to predict if the input message is spam or not.Achieved precision score of 100% and accuracy of 97%",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
-        href: "https://monito.dev/",
+        href: "https://github.com/akshatladdha16/Spam-Classifier-NLP-Project",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Zomato Restaurants Data Analysis",
+      techStack: ["Matplotlib","Seaborn", "Pandas", "Numpy","Plotly"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Performed Data Analysis to retrive insights from clutered dataset on kaggle.Implemented feature engineering, Exploratory data analysis. Recieved Silver medal with 35 upvotes.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://www.kaggle.com/code/akshatrailaddha/zomato-restaurants-data-analysis",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Stock Market Prediction Using Sentiment Analysis",
+      techStack: ["Python and it's libraries", "Machine Learning", "RandomForest"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Stock market movement prediction using news headlines using Random Forest algorithm. Achieved 85% accuracy on test results. Recieved Bronze medal on kaggle platform",
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://www.kaggle.com/code/akshatrailaddha/stock-market-sentiment-analysis-using-nlp",
       },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
