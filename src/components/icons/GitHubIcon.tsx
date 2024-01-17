@@ -8,3 +8,4 @@ export const GitHubIcon = (props: React.SVGProps<SVGSVGElement>) => {
     </svg>
   );
 };
+

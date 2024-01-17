@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon , MediumIcon} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Akshat Rai Laddha",
@@ -49,6 +49,12 @@ export const RESUME_DATA = {
         url: "https://twitter.com/AkshatRaiLaddh1",
         icon: XIcon,
       },
+      {
+        name: "Medium",
+        url: "https://medium.com/@laddhaakshatrai",
+        icon: MediumIcon,
+      }
+      
     ],
   },
   education: [
