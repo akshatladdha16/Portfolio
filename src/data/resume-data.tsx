@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Student at NIT Warangal, Data Science Enthusiast.Figuring out and Buidling life one step at a time",
   summary:
     "Hey!!. A Quick intro. Myself Akshat , student at NIT Warangal, Batch of 2024 ,pursuing undergrad in Electrical Engineering with passion to build my career in Analytics domain. Having work experience in corporate giants like Craelon Global Solutions and startups like Zevo.ai.Apart from this, preety active in extra-curriculars, Being the captain of Institute Badminton Team or writing medium blogs.",
-  avatarUrl: "[insert avatar url]",
+  avatarUrl: "https://github.com/akshatladdha16/Portfolio/raw/master/profile%20pic1.jfif",
   personalWebsiteUrl: "[insertwebsite link here]",
   contact: {
     email: "laddhaakshatrai@gmail.com",
