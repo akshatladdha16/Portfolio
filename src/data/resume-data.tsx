@@ -62,7 +62,7 @@ export const RESUME_DATA = {
       school: "National Institute of Technology,Warangal,Telangana",
       degree: "Pursuing Bachelor's Degree in Electrical and Electronics engineering",
       start: "2020",
-      end: "Present(Batch of 2024)",
+      end: "Present('24 Batch)",
     },
   ],
   work: [
@@ -89,15 +89,15 @@ export const RESUME_DATA = {
         " Developed analytics tool to assist developers, testers, and BA to arrest and identify defect-prone areas.Implemented Transfer Learning to find contextualized keywords, and categorized 85-90% of defects.Extracted live defect data from DB using SQL Server, built pipeline and published PowerBI dashboard using API.Enhanced defect management efficiency, reduced the number of defects by 5%, with a 10% increment every year.Tools Used: Spyder | SQL Server Management | JIRA | MS Excel | PowerBI API | Azure",
     },
     {
-      company: "Wizlearnr International",
-      link: "",
-      badges: [],
-      title: "",
+      company: "Wizlearnr International Pvt. Ltd.",
+      link: "https://www.linkedin.com/company/wizlearnr/",
+      badges: ["Remote"],
+      title: "Prototype Developer Intern",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "April,'22",
+      end: "June,'22",
       description:
-        "Developed a prototype using no-code tool for an Ed-Tech startup focusing on the holistic life skills of children.Researched Tech feasibility and analyzed market trends and size for the Ed-tech domain using Excel.Reached out to potential customers to understand business needs and frame solutions for better services.Tools Used: Bubble.io | Google Analytics | Canva | MS Excel | PowerPoint Presentation",
+        "Developed a prototype using no-code tool bubble.io for an early age Ed-Tech startup focusing on the holistic life skills of children.Researched Tech feasibility and analyzed market trends and size for the Ed-tech domain using Excel.Reached out to potential customers to understand business needs and frame solutions for better services.Tools Used: Bubble.io | Google Analytics | Canva | MS Excel | PowerPoint Presentation",
     },
   ],
   skills: [
