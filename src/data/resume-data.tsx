@@ -112,6 +112,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Test Formatter Using OpenCV OCR API",
+      techStack: [
+        "NextJS",
+        "TailwindCSS",
+        "OCR API",
+        "OpenCV"
+      ],
+      description: "Project is submission to Tri_NIT Hackathon 2024 focuses on formation of online computer based test(CBT) when given pdf,image files of questions as input.Installed live timer,public test,test analytics features in project. Live demo and documentation available in Github repo",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "https://github.com/akshatladdha16/TRINIT-RunTime_Terror-DEV03",
+      },
+    },
+    {
       title: "Relational NER",
       techStack: [
         "NLP",
