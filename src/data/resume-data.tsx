@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon , MediumIcon} from "@/components/icons"
 export const RESUME_DATA = {
   name: "Akshat Rai Laddha",
   initials: "ARL",
-  location: "NIT Warangal,Telangana",
-  locationLink: "[https://maps.app.goo.gl/ncWjwzuZ5ocXecGEA]",
+  location: "Hyderabad,Telangana",
+  // locationLink: "[https://maps.app.goo.gl/ncWjwzuZ5ocXecGEA]",
   about:
-    "Student at NIT Warangal, Data Science Enthusiast.Figuring out,taking one step at a time",
+    "Software Developer by profession, Student by heart,Figuring out my way through the world of AI,Finance and Web Development. We take one step at a time.",
   summary:
-    "Hey!!. A Quick intro. Myself Akshat , student at NIT Warangal, Batch of 2024 ,pursuing undergrad in Electrical Engineering with keen interest to build carrer in Analytics domain.Having work experience in corporate giants like Carelon Global Solutions and startups like Zevo.ai.Apart from this,love to read and write blogs, playing badminton and take up club/assosiations responsibilities.",
+    "Hey There!!. A Quick intro. Myself Akshat ,NIT Warangal graduate(batch of 2024), software engineer by profession. Loves building new projects and figure out marketing, sales and product development on the side.Apart from tech, I indulge my time in finance and stock market trading/investing.",
   avatarUrl: "https://github.com/akshatladdha16/Portfolio/raw/master/profile%20pic1.jfif",
   personalWebsiteUrl: "[insertwebsite link here]",
   contact: {
@@ -54,18 +54,28 @@ export const RESUME_DATA = {
         url: "https://medium.com/@laddhaakshatrai",
         icon: MediumIcon,
       }
-      
     ],
   },
   education: [
     {
       school: "National Institute of Technology,Warangal,Telangana",
-      degree: "Pursuing Bachelor's Degree in Electrical and Electronics engineering",
+      degree: "Bachelor's Degree in Electrical and Electronics engineering",
       start: "2020",
-      end: "Present('24 Batch)",
+      end: "2024",
     },
   ],
   work: [
+    {
+      company: "Cloudangles Digital Transformation Pvt. Ltd.",
+      link: "https://www.cloudangles.com/",
+      badges: ["Onsite(Hyderabad)"],
+      title: "Software Engineer",
+      logo: JojoMobileLogo,
+      start: "Sept'24",
+      end: "Current",
+      description:
+        "Enhanced open-source ETL tool with 20+ data source connectors, built a Docker image, and deployment with EC2.Implemented Apache Kafka service for real-time streaming for data ingestion.Developed APIs in Tornado and integrated with the frontend team to build smooth functionality.Handled multiple client demo calls and effectively managed deadlines in a fast-paced working environment.Contributed to an agentic AI project, automated Github CI/CD actions with Dockerfile creation. Tools Used: Apache Kafka | Docker | Tornado | AWS EC2 & Bedrock | Open Source",
+    },
     {
       company: "Zevo.ai",
       link: "https://www.zevo.ai/",
